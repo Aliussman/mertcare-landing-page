@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  color: #1f2937;
+}
+
+/* CONTAINER */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* HEADER */
+.header {
+  background: #1f2937;
+  padding: 1rem 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+/* HERO */
+.hero {
+  background: #1f2937;
+  color: #fff;
+  padding: 4rem 0;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  color: #d1d5db;
+  margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+  background: #3b82f6;
+  color: #fff;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.image-placeholder {
+  background: #6b7280;
+  color: #fff;
+  width: 400px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  image-rendering: crisp-edges;
+}
+img {
+  width: 400px;
+  height: 220px;
+}
+/* FEATURES */
+.features {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.features h2 {
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+
+.feature-cards {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 200px;
+}
+
+.icon-box {
+  width: 120px;
+  height: 120px;
+  border: 3px solid #3b82f6;
+  border-radius: 10px;
+  margin: 0 auto 1rem;
+}
+
+/* TESTIMONIAL */
+.testimonial {
+  background: #e5e7eb;
+  padding: 4rem 0;
+}
+
+.quote {
+  font-size: 1.3rem;
+  font-style: italic;
+  max-width: 800px;
+}
+
+.author {
+  text-align: right;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+/* CTA */
+.cta {
+  padding: 4rem 0;
+}
+
+.cta-box {
+  background: #3b82f6;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 0.6rem 1.4rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+.footer {
+  background: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+}
+
